@@ -1,0 +1,5 @@
+<%= @task.title %>
+
+<%= link_to "delete", task_path(@task), method: :delete, data: {confirm: "Are your sure ?"} %>
+
+<%= link_to "Back", tasks_path  %>
